@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Link Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Link Font-google -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <!-- Contact -->
+    <section class="contact">
+        <!-- Container -->
+        <div class="container">
+            <!-- Section-title -->
+            <h1 class="section-title">Get In Touch</h1>
+            <!-- Contact-info -->
+            <div class="contact-info">
+                <!-- Phone -->
+                <a href="tel:+" class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                    +111 1111111111
+                </a>
+                <!-- Email -->
+                <a href="mailto:" class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                    email@address.com
+                </a>
+                <!-- Address -->
+                <a href="http://" class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    New York, United States
+                </a>
+                <!-- Contact-form -->
+                <form action="./assets/php/contact.php" method="post" class="contact-form">
+                    <input type="text" class="nameZone" placeholder="Your Full Name">
+                    <input type="email" class="emailZone" placeholder="Your Email">
+                    <input type="text" class="subjectZone" placeholder="Subject">
+                    <textarea class="messageZone" placeholder="Massage"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
